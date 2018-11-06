@@ -1,7 +1,7 @@
 import java.io.*;
 import java.awt.*;
 import javax.swing.*;
-class LoginPage
+class WelcomePage
 {
 	public static void main(String[] args) throws IOException
 	{
