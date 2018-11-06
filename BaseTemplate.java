@@ -14,6 +14,7 @@ class BaseTemplate
 	{
 		JFrame frame = new JFrame("Brivago");
 		frame.setSize(1920,1080);
+		frame.setExtendedState(Jframe.MAXIMIZED_BOTH);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 		BufferedImage myPicture = ImageIO.read(new File("pic2.jpg"));
