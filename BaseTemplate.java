@@ -19,5 +19,7 @@ class BaseTemplate
 		BufferedImage myPicture = ImageIO.read(new File("pic2.jpg"));
 		JLabel picLabel = new JLabel(new ImageIcon(myPicture));
 		frame.getContentPane().add(BorderLayout.NORTH, picLabel);
+		frame.revalidate();
+		frame.repaint();
 	}
 }
